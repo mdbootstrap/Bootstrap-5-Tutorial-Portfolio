@@ -1,0 +1,73 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.intro-left {
+  background: url(../img/1.jpg);
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  width: 33.3333%;
+  height: 100%;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .intro-left {
+    height: 30vh;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+
+.avatar {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.quote {
+  float: right;
+}
+
+section {
+  margin: 5rem;
+  font-size: 1.2 rem;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #fff;
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* .panel-right {
+  background-color: #eee;
+} */
+
+.background {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+  clip-path: polygon(36% 0, 95% 0, 65% 100%, 18% 100%);
+}
